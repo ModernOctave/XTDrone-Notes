@@ -3,18 +3,26 @@ See [Setup Instructions](setup.md)
 
 # 3D Dense Reconstruction with VINS-Fusion & RTABMap
 ## Install Ceres Solver
-```./install-ceres```
+```
+./install-ceres
+```
 
 ## Install VINS-Fusion
-```./install-vins```
+```
+./install-vins
+```
 
 ## Install RTABMap
-```./install-rtabmap```
+```
+./install-rtabmap
+```
 
 ## Change Camera
 Create a copy of ~/PX4_Firmware/launch/indoor1.launch.
 
-```cp ~/PX4_Firmware/launch/indoor1.launch ~/PX4_Firmware/launch/indoor1-depth.launch```
+```
+cp ~/PX4_Firmware/launch/indoor1.launch ~/PX4_Firmware/launch/indoor1-depth.launch
+```
 
 Change the camera from `iris_stereo_camera` to `iris_realsense_camera` so that depth map data is available.
 
