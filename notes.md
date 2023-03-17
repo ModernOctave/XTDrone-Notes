@@ -1,5 +1,5 @@
 # Setup XTDrone
-See [Setup Instructions](setup.md)
+See [Setup Instructions](/setup.md)
 
 # 3D Dense Reconstruction with VINS-Fusion & RTABMap
 ## Install Ceres Solver
